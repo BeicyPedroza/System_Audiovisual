@@ -1,0 +1,51 @@
+.main-headline {
+  margin-top: 5rem;
+  font-weight: 800;
+}
+.header {
+  height: 599px;
+  background-image: url("../../assets/images/alquiler-equipos-sonido-auidovisal.jpg");
+  background-repeat: no-repeat;
+  background-size: 107%;
+}
+
+.main-headline .title {
+  text-shadow: 3px 3px 1px rgb(98, 0, 255);
+  margin-bottom: 2cm;
+  text-align: center;
+  font-family: monospace;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+.main-headline .content {
+  text-align: center;
+  color: azure;
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 3px 3px 1px rgb(98, 0, 255);
+  font-family: monospace;
+}
+
+.supp-headline {
+  text-align: center;
+  margin-top: 2cm;
+  margin-bottom: 2rem;
+  font-size: 24px;
+  color: azure;
+  font-family: monospace;
+}
+
+.header img {
+  max-width: 100%;
+}
+
+.header.grid {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 45em) {
+  .header.grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

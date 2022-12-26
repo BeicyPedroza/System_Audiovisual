@@ -1,0 +1,39 @@
+.login {
+  text-align: center;
+}
+
+.login .logo {
+  justify-content: center;
+  margin: 1rem auto;
+  width: 50%;
+}
+
+.login .title {
+  text-align: center;
+  font-weight: 300;
+}
+
+.login .form {
+  background-color: rgb(255, 255, 255);
+  max-width: 25rem;
+  margin: 1rem auto;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.login .register {
+  background-color: rgb(255, 255, 255);
+  max-width: 25rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+.login{
+  background-image: url("../../assets/images/17545.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y:top ;
+  background-size: 1300px;
+  height:671px;
+  width: 1300px;
+  justify-content: center;
+}
