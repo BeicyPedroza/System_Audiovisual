@@ -4,12 +4,12 @@ import Button from "../../components/forms/Button";
 import Input from "../../components/forms/Input";
 import "./Register.css";
 
-function Login() {
+function Register() {
   return (
     <section className="login1">
       <div className="container">
         <Link to="/">
-          <Logo size="110px" />
+          <Logo size="80px" />
         </Link>
         <h1 className="title">
           Registrarse en <b>Audio Técnica</b>
@@ -32,4 +32,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;

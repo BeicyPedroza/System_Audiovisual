@@ -1,7 +1,4 @@
-import Button from "../../components/forms/Button";
 import GridColumn from "../../components/GridColumn";
-import { Link } from "react-router-dom";
-
 import "./Home.css";
 
 function Home() {
@@ -18,6 +15,12 @@ function Home() {
             Instalación <br />
             Transcripción <br />
             Alquiler y venta.
+          </p>
+          <p className="supp-headline">
+            Somos una empresa con experiencia en el alquiler de equipos.
+            <br />
+            Tenemos a su disposición diferentes sistemas audiovisuales a su
+            servicio. <br />
           </p>
         </GridColumn>
       </div>

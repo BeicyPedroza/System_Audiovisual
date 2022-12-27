@@ -10,9 +10,11 @@ function Login() {
     <section className="login">
       <div className="container">
         <Link to="/">
-          <Logo size="100px" />
+          <Logo size="80px" />
         </Link>
-        <h1 className="title"><b>Iniciar Sesión</b></h1>
+        <h1 className="title">
+          <b>Iniciar Sesión</b>
+        </h1>
         <p>¡Que gusto verte!</p>
         <form className="flex card form">
           <Input>Usuario</Input>

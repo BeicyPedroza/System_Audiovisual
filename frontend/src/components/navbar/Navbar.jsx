@@ -12,14 +12,14 @@ function Navbar() {
         <ul className="menu flex container">
           <li>
             <Link to="/">
-              <Logo size="40px" showText={true} />
+              <Logo size="50px" showText={true} />
             </Link>{" "}
           </li>
           <li>
             <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/reservation">Reserva</Link>
+            <Link to="/reservation">Reservación</Link>
           </li>
           <li>
             <Link to="/login">
