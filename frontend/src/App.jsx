@@ -1,8 +1,7 @@
-import React from "react";
 import Home from "./views/home/Home";
 import Login from "./views/login/Login";
 import Register from "./views/register/Register";
-import Reservation from "./views/Reservation/Reservation";
+import Reservation from "./views/reservation/Reservation";
 import { Route, Routes } from "react-router-dom";
 
 import "./assets/global.css";
